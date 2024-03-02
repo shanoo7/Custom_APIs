@@ -85,6 +85,6 @@ app.get('/api/products', (req, res) => {
 
 const port = process.env.port || 3000;
 app.listen(port, () => {
-    console.log("app is running at port :", { port })
+    console.log("app is running at port :" + port )
 })
 
